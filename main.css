@@ -5,12 +5,15 @@ body{
     background: url("images/birdbackground.png") no-repeat fixed top right;
     font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"}
 
-.ms-madi-regular {
-  font-family: "Ms Madi", serif;
-  font-weight:900;
+.rum-raisin-regular {
+  font-family: "Rum Raisin", serif;
+  font-weight: 400;
   font-style: normal;
-  color:#00242D
+  font-size: 3.5em;
+  text-shadow: 3px 5px #005372;
 }
+
+
 
 
 #container{
@@ -25,10 +28,9 @@ header >h1{
 nav{
     height: 50px;
     width: 100%;
-    background-color:rgba(0,69,63,0.90);
+    background-color:#005372;
     text-align: center; color: #fff;
-    border-radius:5px;
-    border:thin aqua solid;
+    
     }                       /* navigation links will go here */
 
 
@@ -64,24 +66,17 @@ nav{
     padding: 30px 15px 15px 10px;
     border: thin aqua solid;}
 
-.left a:link{
-  color: darkslateblue;
-      font-size: 1.1em;
-}
-
-.left a:visited{
- color:aquamarine;
-}
-
-.left a:hover{
-    color:aliceblue;
+.nav a:link{
+  color:aqua;
+      font-size: 1.1em;}
+.nav a:visited{
+ color:darkblue;}
+.nav a:hover{
+    color:white;
     font-size: 1.3em;
-    text-decoration:none;
-}
-
-.left a:active{
-    color:darkblue;
-}
+    text-decoration:none;}
+.nav a:active{
+    color:darkblue;}
     
 
 
