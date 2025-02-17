@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+    background: url("images/birdbackground.png") no-repeat fixed top right;
+    font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"}
+
+.ms-madi-regular {
+  font-family: "Ms Madi", serif;
+  font-weight:900;
+  font-style: normal;
+  color:#00242D
+}
+
+
+#container{
+
+    margin: 0 auto;
+    width: 90%
+}
+
+header >h1{
+    text-align: center; color: #fff;}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background-color:rgba(0,69,63,0.90);
+    text-align: center; color: #fff;
+    border-radius:5px;
+    border:thin aqua solid;
+    }                       /* navigation links will go here */
+
+
+
+.top{
+    width: 90%;
+    height: 300px;
+    background-color:rgba(255,255,255,0.25);
+    border-radius:10px;
+    float: center;
+    margin: 10px 20px 10px 30px;
+    padding: 30px 15px 15px 30px;
+    border: thin aqua solid;}
+
+.left{
+    
+    width: 400px;
+    height: 300px;
+    background-color:rgba(255,255,255,0.25);
+    border-radius:10px;
+    float: left;
+    margin: 10px 10px 10px 30px;
+    padding: 30px 15px 15px 30px;
+    border: thin aqua solid;}
+
+.right{
+    width: 400px;
+    height: 300px;
+    background-color:rgba(255,255,255,0.25);
+    border-radius:10px;
+    float: right;
+    margin: 10px 20px 10px 30px;
+    padding: 30px 15px 15px 10px;
+    border: thin aqua solid;}
+
+.left a:link{
+  color: darkslateblue;
+      font-size: 1.1em;
+}
+
+.left a:visited{
+ color:aquamarine;
+}
+
+.left a:hover{
+    color:aliceblue;
+    font-size: 1.3em;
+    text-decoration:none;
+}
+
+.left a:active{
+    color:darkblue;
+}
+    
+
+
+        
+    
+    
+    
+
+
+
+.extraspace{
+    visibility:hidden;
+    width: 90%;
+    height: 300px;
+    background-color:rgba(255,255,255,0.25);
+    border-radius:10px;
+    float: center;
+    margin: 10px 20px 10px 30px;
+    padding: 30px 15px 15px 30px;
+    border: thin aqua solid;}      /* extra space for content */
+
+footer{
+    background-color:rgba(255,255,255,1.00);
+    clear:both;
+    text-align:center;
+    }
+
+
+
+
+
+
+
+
