@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-    background: url("images/birdbackground.png") no-repeat fixed top right;
+    background: url("images/birdbackground.png") repeat fixed top right;
     font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"}
 
 .rum-raisin-regular {
@@ -12,6 +12,13 @@ body{
   font-size: 3.5em;
   text-shadow: 3px 5px #005372;
 }
+
+ul.a {list-style-type: circle; 
+      color:#005575;
+      }
+
+    
+    
 
 
 
@@ -23,7 +30,8 @@ body{
 }
 
 header >h1{
-    text-align: center; color: #fff;}
+    text-align: center; color: #fff;
+}
 
 nav{
     height: 50px;
@@ -43,7 +51,7 @@ nav{
     float: center;
     margin: 10px 20px 10px 30px;
     padding: 30px 15px 15px 30px;
-    border: thin aqua solid;}
+   }
 
 .left{
     
@@ -78,25 +86,20 @@ nav{
 .nav a:active{
     color:darkblue;}
     
+.caltable{
+border-collapse: collapse;
+width: 100%;    
+order-collapse: collapse;
+text-align: center;
+margin: 0 auto;
+}
 
-
-        
-    
-    
-    
-
-
-
-.extraspace{
-    visibility:hidden;
-    width: 90%;
-    height: 300px;
-    background-color:rgba(255,255,255,0.25);
-    border-radius:10px;
-    float: center;
-    margin: 10px 20px 10px 30px;
-    padding: 30px 15px 15px 30px;
-    border: thin aqua solid;}      /* extra space for content */
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid white;
+  color:teal;
+}
+tr:hover {background-color: aqua;}
 
 footer{
     background-color:rgba(255,255,255,1.00);
