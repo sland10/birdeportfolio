@@ -1,10 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
-
-body{
-    background: url("images/birdbackground.png") repeat fixed top right;
-    font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"}
-
+body {
+  background:image(img src="birdbackground.png")top right;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
 .rum-raisin-regular {
   font-family: "Rum Raisin", serif;
   font-weight: 400;
@@ -13,107 +12,61 @@ body{
   text-shadow: 3px 5px #005372;
 }
 
-ul.a {list-style-type: circle; 
-      color:#005575;
-      }
-
+ul a {
+  list-style-type: circle;
+  color: #005575;
+}
 .center {
   margin-left: auto;
   margin-right: auto;
 }
-
-
-    
-
-
-
-
-#container{
-
-    margin: 0 auto;
-    width: 90%
+#container {
+  margin: 0 auto;
+  width: 90%
 }
-
-header >h1{
-    text-align: center; color: #fff;
-}
-
-nav{
-    height: 50px;
-    width: 100%;
-    background-color:#005372;
-    text-align: center; color: #fff;
-    
-    }                       /* navigation links will go here */
-
-
-
-.top{
-    width: 90%;
-    height: 300px;
-    background-color:rgba(255,255,255,0.25);
-    border-radius:10px;
-    float: center;
-    margin: 10px 20px 10px 30px;
-    padding: 30px 15px 15px 30px;
-   }
-
-.left{
-    
-    width: 400px;
-    height: 300px;
-    background-color:rgba(255,255,255,0.25);
-    border-radius:10px;
-    float: left;
-    margin: 10px 10px 10px 30px;
-    padding: 30px 15px 15px 30px;
-    border: thin aqua solid;
-    text-align: center; }
-
-.right{
-    width: 400px;
-    height: 300px;
-    background-color:rgba(255,255,255,0.25);
-    border-radius:10px;
-    float: right;
-    margin: 10px 20px 10px 30px;
-    padding: 30px 15px 15px 10px;
-    border: thin aqua solid;}
-
-.nav a:link{
-  color:aqua;
-      font-size: 1.1em;}
-.nav a:visited{
- color:darkblue;}
-.nav a:hover{
-    color:white;
-    font-size: 1.3em;
-    text-decoration:none;}
-.nav a:active{
-    color:darkblue;}
-    
-
-th, td {
+header > h1 {
   text-align: center;
-  padding: 8px;
-  border-bottom: 1px solid white;
-  color:teal;
+  color:#fff;
 }
-tr:hover {background-color: aqua;}
-
-
-
-
-footer{
-    background-color:rgba(255,255,255,1.00);
-    clear:both;
-    text-align:center;
-    }
-
-
-
-
-
-
-
-
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: #005372;
+  text-align: center;
+  color: #fff;
+} /* navigation links will go here */
+.top {
+  width: 90%;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  float: center;
+  margin: 10px 20px 10px 30px;
+  padding: 30px 15px 15px 30px;
+}
+.left {
+  width: 400px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  float: left;
+  margin: 10px 10px 10px 30px;
+  padding: 30px 15px 15px 30px;
+  border: thin aqua solid;
+  text-align: center;
+}
+.right {
+  width: 400px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  float: right;
+  margin: 10px 20px 10px 30px;
+  padding: 30px 15px 15px 10px;
+  border: thin aqua solid;
+}
+footer {
+  background-color: rgba(255, 255, 255, 1.00);
+  clear: both;
+  text-align: center;
+}
